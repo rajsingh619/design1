@@ -58,3 +58,64 @@
     margin-top: 50px;
     margin-right: 200px;
 }
+.films>h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.film-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.poster>img{
+    height: 200px;
+    width: 200px;
+    border: solid 4px blue;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.quote{
+    background-color: #E5E7EB;
+    height: 150px;
+    margin-top: 20px;
+}
+.quote>p{
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    font: italic;
+    color: #1F2937;
+}
+.adv{
+    background-color: #3882F6;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.adv>button{
+    border: solid 4px #F9FAF8;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.footer{
+    background-color: #1F2937;
+    height: 50px;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 15px;
+}
